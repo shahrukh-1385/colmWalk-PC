@@ -17,11 +17,51 @@ a{
 .login-btn{
     border: 1px solid #afafaf !important;
 }
-
-
-
-
-
+.img{
+    position: absolute;
+    width: 110%;
+    height: 90vh;
+    top: -20px;
+    left: -30px;
+}
+.direction{
+    font-size: 13px;
+    color: rgb(109, 109, 109);
+    position: relative;
+}
+.manage-dir-text{
+    display: inline;
+}
+.direction{
+    inset: 10vh 0px;
+    position: relative;
+}
+.line{
+    position: absolute;
+    top: 10px;
+    left: 144px;
+    display: inline-block;
+    border: 1px solid #6f1ab6;
+    width: 14vh;
+    height: 1px;
+}
+.text-bold-1{
+    font-family: 'Times New Roman', Times, serif;
+    top: 10vh;
+    left: 10px;
+    position: absolute;
+    font-size: 14vh;
+}
+.text-bold-2{
+    color: #6f1ab6;
+    margin-top: -34px;
+}
+.p-text{
+    color: #494b50;
+    position: absolute;
+    inset: 21rem 0;
+    font-size: 18px;
+}
 
 
 
