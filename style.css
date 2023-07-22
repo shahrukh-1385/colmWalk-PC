@@ -106,17 +106,54 @@ a{
     left: 75%;
     transform: translate(-40%, -75%);
 }
-
-
-
-
-
-
-
-
-
-
-
+.footer{
+    background-image: url(./assets/img/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.left-element ul li {
+    color: #fff;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+.right-element{
+    flex-direction: row;
+    padding-left: 30vh;
+}
+.right-element ul{
+    padding: 0 27px;
+    list-style: none;
+}
+.right-element ul li{
+    color: #fff;
+}
+.right-element ul li:nth-child(1){
+    list-style: inside;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.right-element ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.copyright-link{
+    color: #ff0000 !important;
+    text-decoration: none;
+}
+.logo-company{
+    padding: 0 7px;
+    float: right;
+}
 
 
 
