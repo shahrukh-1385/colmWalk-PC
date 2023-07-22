@@ -55,6 +55,28 @@ a{
     width: 16rem;
     height: 19rem;
 }
+.drop-category{
+    width: 45vh;
+    text-align: left !important;
+    background-color: #fff !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.drop-category:focus{
+    border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.dropdown-menu{
+    width: 45vh;
+    margin: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.drop-link{
+    font-size: 14px;
+    color: #797979;
+    font-weight: 600 !important;
+}
 .on-photos{
     display: flex;
     flex-direction: row;
