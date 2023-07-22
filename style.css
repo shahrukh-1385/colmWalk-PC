@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 a{
     color: #505050 !important;
 }
@@ -24,44 +27,227 @@ a{
     top: -20px;
     left: -30px;
 }
-.direction{
-    font-size: 13px;
-    color: rgb(109, 109, 109);
-    position: relative;
-}
-.manage-dir-text{
-    display: inline;
-}
-.direction{
-    inset: 10vh 0px;
-    position: relative;
+.dir{
+    margin-top: 16vh;
 }
 .line{
-    position: absolute;
-    top: 10px;
-    left: 144px;
     display: inline-block;
     border: 1px solid #6f1ab6;
-    width: 14vh;
+    width: 12vh;
     height: 1px;
+    margin-bottom: 3px;
+    margin-left: 10px;
 }
-.text-bold-1{
+.text-bold{
     font-family: 'Times New Roman', Times, serif;
-    top: 10vh;
-    left: 10px;
-    position: absolute;
     font-size: 14vh;
 }
-.text-bold-2{
-    color: #6f1ab6;
-    margin-top: -34px;
+.second{
+    color: #5c1596;
+    margin-top: -30px;
 }
-.p-text{
-    color: #494b50;
-    position: absolute;
-    inset: 21rem 0;
-    font-size: 18px;
+.img-manage{
+    flex-direction: row-reverse;
+    display: flex;
+    margin-right: -21px;
 }
+.flex-img{
+    width: 16rem;
+    height: 19rem;
+}
+.on-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-left{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 17px;
+}
+.mini-text{
+    font-size: 13px;
+    color: #797979;
+}
+.text-right{
+    display: inline-block;
+}
+.Sort-by{
+    font-size: 14px;
+    color: #797979;
+    margin-right: 7px;
+}
+.price-btn{
+    border: 1px solid #b6b6b6 !important;
+}
+.text-img-top{
+    margin-top: -14px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-img-bottom{
+    text-align: center;
+    font-size: 13px;
+    color: #797979;
+    font-weight: 600;
+}
+.btn-show{
+    background-color: #2a323d !important;
+    color: #fff !important;
+    width: 23vh;    
+}
+.fa-angle-down{
+    color: #fff;
+}
+.manage-btn{
+    position: relative;
+    top: 40%;
+    left: 75%;
+    transform: translate(-40%, -75%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
